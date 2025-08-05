@@ -200,9 +200,5 @@ Bạn cần thêm các hình ảnh sau vào thư mục `images/`:
 ## 📞 Hỗ trợ
 
 Nếu bạn cần hỗ trợ hoặc có thắc mắc về website, vui lòng liên hệ qua:
-- Email: tranhoangvi@email.com
-- GitHub: github.com/tranhoangvi
-
----
-
-**Lưu ý**: Đây là template hoàn chỉnh theo yêu cầu của bạn. Bạn chỉ cần thêm hình ảnh thực tế và cập nhật thông tin cá nhân để có website portfolio hoàn chỉnh!
+- Email: tranhoangvi21072003@gmail.com
+- GitHub: github.com/hoangvi03
