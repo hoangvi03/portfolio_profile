@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Analytics Project - Trần Hoàng Vĩ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-detail.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h3><a href="index.html">Trần Hoàng Vĩ</a></h3>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Project Hero Section -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="index.html#projects">Projects</a>
+                <span>/</span>
+                <span>Social Network Analytics</span>
+            </div>
+
+            <div class="project-header">
+                <h1 class="project-title">Phân tích và dự đoán môi quan tâm người dùng trên Twitter</h1>
+                <p class="project-subtitle">Xây dựng hệ thống phân tích và dự đoán chủ đề quan tâm của người dùng</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>04/2025 - 05/2025</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>1 tháng</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Individual Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Image/Demo -->
+    <section class="project-demo">
+        <div class="container">
+            <div class="demo-image">
+                <img src="images/social-network-main.jpg" alt="Social Network Analytics Dashboard">
+                <div class="demo-overlay">
+                    <button class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="project-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content">
+                    <h2>Tổng quan dự án</h2>
+                    <p>
+                        Dự án xây dựng hệ thống phân tích và dự đoán chủ đề quan tâm của người dùng dựa trên
+                        dữ liệu từ Twitter. Hệ thống thực hiện tiền xử lý dữ liệu, giảm chiều bằng SVD,
+                        phân cụm người dùng bằng K-Means và xác định chủ đề nổi bật với LDA.
+                        Kết quả đạt được Silhouette Score 0.42, độ chính xác phân cụm 80%.
+                    </p>
+
+                    <h3>Mục tiêu dự án</h3>
+                    <ul class="objectives-list">
+                        <li>Tiền xử lý dữ liệu và giảm chiều bằng SVD</li>
+                        <li>Phân cụm người dùng bằng K-Means</li>
+                        <li>Xác định chủ đề nổi bật với LDA</li>
+                        <li>Đánh giá độ tương tự bằng Cosine Similarity</li>
+                        <li>Áp dụng các chỉ số đánh giá: Silhouette Score, Topic Coherence, Accuracy</li>
+                        <li>Triển khai mô hình dự đoán cho người dùng mới</li>
+                    </ul>
+
+                    <h3>Vai trò của tôi</h3>
+                    <ul class="role-list">
+                        <li><strong>Data Engineer:</strong> Thiết kế pipeline thu thập và xử lý dữ liệu Twitter</li>
+                        <li><strong>Data Scientist:</strong> Thực hiện phân cụm và topic modeling</li>
+                        <li><strong>ML Engineer:</strong> Xây dựng mô hình dự đoán với SVD và K-Means</li>
+                        <li><strong>Research:</strong> Nghiên cứu và đánh giá các phương pháp phân tích</li>
+                    </ul>
+                </div>
+
+                <div class="overview-sidebar">
+                    <div class="tech-stack-card">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-list">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SVD</span>
+                            <span class="tech-tag">K-Means</span>
+                            <span class="tech-tag">LDA</span>
+                            <span class="tech-tag">Cosine Similarity</span>
+                            <span class="tech-tag">Silhouette Score</span>
+                            <span class="tech-tag">Topic Coherence</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+
+                    <div class="links-card">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/hoangvi03/Social_Network_Analytics.git" class="link-item"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>View Source Code</span>
+                            </a>
+                            <a href="#" class="link-item" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Dashboard</span>
+                            </a>
+                            <a href="#" class="link-item" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Research Paper</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process -->
+    <section class="project-process">
+        <div class="container">
+            <h2 class="section-title">Quy trình thực hiện</h2>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Data Collection & Preprocessing</h3>
+                        <p>
+                            Thu thập dữ liệu từ Twitter và thực hiện tiền xử lý dữ liệu text.
+                            Làm sạch dữ liệu, loại bỏ noise, tokenization và chuẩn hóa text
+                            để chuẩn bị cho các bước phân tích tiếp theo.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• Twitter data collection</span>
+                            <span>• Text preprocessing & cleaning</span>
+                            <span>• Tokenization & normalization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Dimensionality Reduction & Clustering</h3>
+                        <p>
+                            Áp dụng SVD (Singular Value Decomposition) để giảm chiều dữ liệu và
+                            phân cụm người dùng bằng thuật toán K-Means. Xác định số cụm tối ưu
+                            và đánh giá chất lượng phân cụm bằng Cosine Similarity.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• SVD dimensionality reduction</span>
+                            <span>• K-Means clustering</span>
+                            <span>• Cosine Similarity evaluation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Topic Modeling & Analysis</h3>
+                        <p>
+                            Sử dụng LDA (Latent Dirichlet Allocation) để xác định chủ đề nổi bật
+                            và phân tích mối quan tâm của từng cụm người dùng. Đánh giá độ coherence
+                            của topics và accuracy của mô hình phân cụm.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• LDA topic modeling</span>
+                            <span>• Topic coherence analysis</span>
+                            <span>• Interest pattern identification</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Model Evaluation & Prediction</h3>
+                        <p>
+                            Đánh giá mô hình bằng Silhouette Score, Topic Coherence và Accuracy.
+                            Triển khai hệ thống dự đoán môi quan tâm cho người dùng mới dựa trên
+                            mô hình đã được huấn luyện và validation.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• Silhouette Score: 0.42</span>
+                            <span>• 80% clustering accuracy</span>
+                            <span>• New user prediction system</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="project-results">
+        <div class="container">
+            <h2 class="section-title">Kết quả đạt được</h2>
+
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>0.42</h3>
+                        <p>Silhouette Score</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>80%</h3>
+                        <p>Clustering Accuracy</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>K-Means</h3>
+                        <p>User Clustering</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>LDA</h3>
+                        <p>Topic Modeling</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detailed-results">
+                <div class="results-content">
+                    <h3>Chi tiết kết quả</h3>
+                    <ul>
+                        <li>
+                            <strong>Clustering Performance:</strong> Silhouette Score đạt 0.42, độ chính xác phân cụm
+                            80%
+                        </li>
+                        <li>
+                            <strong>Topic Analysis:</strong> Xác định chủ đề nổi bật với LDA và đánh giá Topic Coherence
+                        </li>
+                        <li>
+                            <strong>Dimensionality Reduction:</strong> SVD giảm chiều hiệu quả cho K-Means clustering
+                        </li>
+                        <li>
+                            <strong>User Prediction:</strong> Hệ thống dự đoán môi quan tâm cho người dùng mới
+                        </li>
+                        <li>
+                            <strong>Evaluation Metrics:</strong> Cosine Similarity, Silhouette Score, Topic Coherence
+                        </li>
+                        <li>
+                            <strong>GitHub Repository:</strong> Source code và documentation đầy đủ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="project-gallery">
+        <div class="container">
+            <h2 class="section-title">Ảnh minh họa hệ thống</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/social/dotuongtu.png" alt="Main Dashboard">
+                    <div class="gallery-overlay">
+                        <h4>Độ tương tự</h4>
+                        <p>Thống kê độ tương tự giữa các người dùng</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/social/phanbochude.png" alt="Sentiment Analysis">
+                    <div class="gallery-overlay">
+                        <h4>Phân bố chủ đề</h4>
+                        <p>Phân bố các chủ đề được quan tâm</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/social/xuhuongtheothoigian.png" alt="Network Analysis">
+                    <div class="gallery-overlay">
+                        <h4>Xu hướng theo thời gian</h4>
+                        <p>Biểu đồ phân bố theo thời gian</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Project -->
+    <section class="next-project">
+        <div class="container">
+            <div class="next-project-card">
+                <div class="next-content">
+                    <span class="next-label">Next Project</span>
+                    <h3>Art Center Management Website</h3>
+                    <p>Website quản lý trung tâm nghệ thuật với đầy đủ tính năng quản lý khóa học và học viên</p>
+                </div>
+                <div class="next-image">
+                    <a href="project-art-center.html" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Liên hệ với tôi</h3>
+                    <p>Tôi luôn sẵn sàng thảo luận về các cơ hội hợp tác mới và dự án thú vị!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>tranhoangvi210720003@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+84889424240</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tân Phú, Thành phố Hồ Chí Minh</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/hoang-vi-860254323" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/hoangvi03" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Trần Hoàng Vĩ. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/hoang-vi-860254323" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/hoangvi03" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:tranhoangvi210720003@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

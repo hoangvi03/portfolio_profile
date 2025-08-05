@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Classification Project - Trần Hoàng Vĩ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-detail.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h3><a href="index.html">Trần Hoàng Vĩ</a></h3>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Project Hero Section -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="index.html#projects">Projects</a>
+                <span>/</span>
+                <span>Diabetes Classification</span>
+            </div>
+
+            <div class="project-header">
+                <h1 class="project-title">Phân loại bệnh tiểu đường qua trên phương pháp học máy</h1>
+                <p class="project-subtitle">Xây dựng hệ thống dự đoán nguy cơ mắc bệnh tiểu đường sử dụng Machine
+                    Learning</p>
+
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>03/2025 - 06/2025</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>3 tháng</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Individual Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Image/Demo -->
+    <section class="project-demo">
+        <div class="container">
+            <div class="demo-image">
+                <img src="images/diabetes-project-main.jpg" alt="Diabetes Classification System Demo">
+                <div class="demo-overlay">
+                    <button class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="project-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-content">
+                    <h2>Tổng quan dự án</h2>
+                    <p>
+                        Dự án nghiên cứu và phát triển hệ thống phân loại bệnh tiểu đường sử dụng dữ liệu y tế
+                        từ bộ dữ liệu Pima Indians Diabetes. Hệ thống áp dụng các kỹ thuật tiền xử lý dữ liệu,
+                        tạo đặc trưng mới, xử lý mất cân bằng dữ liệu bằng SMOTE và RandomUnderSampler,
+                        và sử dụng 4 mô hình học máy để đạt độ chính xác cao nhất.
+                    </p>
+
+                    <h3>Mục tiêu dự án</h3>
+                    <ul class="objectives-list">
+                        <li>Xây dựng mô hình ML với F1-score đạt 0.78</li>
+                        <li>Áp dụng 4 thuật toán: Logistic Regression, Decision Tree, Random Forest, KNN</li>
+                        <li>Tối ưu thành 5 mô hình bằng GridSearchCV</li>
+                        <li>Đánh giá mô hình bằng Accuracy, Precision, Recall, F1-score, ROC-AUC</li>
+                        <li>Triển khai mô hình tốt nhất lên ứng dụng web Flask/Python</li>
+                    </ul>
+
+                    <h3>Vai trò của tôi</h3>
+                    <ul class="role-list">
+                        <li><strong>Data Scientist:</strong> Thu thập, làm sạch và phân tích dữ liệu Pima Indians</li>
+                        <li><strong>ML Engineer:</strong> Xây dựng và tối ưu hóa 4 mô hình học máy</li>
+                        <li><strong>Backend Developer:</strong> Phát triển API Flask/Python</li>
+                        <li><strong>Research:</strong> Nghiên cứu và đánh giá hiệu năng các mô hình</li>
+                    </ul>
+                </div>
+
+                <div class="overview-sidebar">
+                    <div class="tech-stack-card">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-list">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">SMOTE</span>
+                            <span class="tech-tag">RandomUnderSampler</span>
+                            <span class="tech-tag">Logistic Regression</span>
+                            <span class="tech-tag">Decision Tree</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">KNN</span>
+                            <span class="tech-tag">GridSearchCV</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+
+                    <div class="links-card">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/hoangvi03/diabetes_classification.git" class="link-item"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span>View Source Code</span>
+                            </a>
+                            <a href="#" class="link-item" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                            <a href="#" class="link-item" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Documentation</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process -->
+    <section class="project-process">
+        <div class="container">
+            <h2 class="section-title">Quy trình thực hiện</h2>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Thu thập và khám phá dữ liệu</h3>
+                        <p>
+                            Sử dụng dataset Pima Indians Diabetes với 768 mẫu dữ liệu và 8 đặc trưng.
+                            Tiền xử lý dữ liệu, tạo đặc trưng mới, xử lý mất cân bằng bằng SMOTE và
+                            RandomUnderSampler để cải thiện hiệu năng mô hình.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• 768 samples, 8 features</span>
+                            <span>• SMOTE & RandomUnderSampler</span>
+                            <span>• Feature engineering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Tiền xử lý dữ liệu</h3>
+                        <p>
+                            Làm sạch dữ liệu, xử lý missing values, chuẩn hóa features và feature scaling.
+                            Thực hiện feature engineering để tạo ra các features mới có ý nghĩa.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• StandardScaler normalization</span>
+                            <span>• Feature engineering</span>
+                            <span>• Train/test split (80/20)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Xây dựng và huấn luyện mô hình</h3>
+                        <p>
+                            Áp dụng 4 thuật toán machine learning: Logistic Regression, Decision Tree,
+                            Random Forest, và KNN. Tối ưu hóa thành 5 mô hình bằng GridSearchCV
+                            để tìm hyperparameters tốt nhất.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• 4 ML algorithms: LR, DT, RF, KNN</span>
+                            <span>• GridSearchCV optimization</span>
+                            <span>• 5 optimized models</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Đánh giá và triển khai mô hình</h3>
+                        <p>
+                            Đánh giá mô hình bằng các chỉ số: Accuracy, Precision, Recall, F1-score, ROC-AUC.
+                            Triển khai mô hình tốt nhất lên ứng dụng web sử dụng Flask/Python
+                            để dự đoán dữ liệu đầu vào và hiển thị kết quả.
+                        </p>
+                        <div class="step-highlights">
+                            <span>• F1-score: 0.78</span>
+                            <span>• Flask web application</span>
+                            <span>• Real-time prediction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="project-results">
+        <div class="container">
+            <h2 class="section-title">Kết quả đạt được</h2>
+
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>0.78</h3>
+                        <p>F1-Score</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>5</h3>
+                        <p>Optimized Models</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>4</h3>
+                        <p>ML Algorithms</p>
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="result-content">
+                        <h3>ROC-AUC</h3>
+                        <p>Best Evaluation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detailed-results">
+                <div class="results-content">
+                    <h3>Chi tiết kết quả</h3>
+                    <ul>
+                        <li>
+                            <strong>Best Model:</strong> F1-score đạt 0.78 với hệ thống dự đoán bệnh tiểu đường
+                        </li>
+                        <li>
+                            <strong>Algorithms Used:</strong> 4 thuật toán ML được tối ưu thành 5 mô hình
+                        </li>
+                        <li>
+                            <strong>Data Processing:</strong> SMOTE và RandomUnderSampler để xử lý mất cân bằng
+                        </li>
+                        <li>
+                            <strong>Evaluation Metrics:</strong> Accuracy, Precision, Recall, F1-score, ROC-AUC
+                        </li>
+                        <li>
+                            <strong>Web Application:</strong> Flask/Python deployment với giao diện thân thiện
+                        </li>
+                        <li>
+                            <strong>GitHub Repository:</strong> Source code hoàn chỉnh và documentation
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="project-gallery">
+        <div class="container">
+            <h2 class="section-title">Ảnh minh họa giao diện</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/diabetes/dulieugoc.png" alt="Main Dashboard">
+                    <div class="gallery-overlay">
+                        <h4>Dữ liệu gốc</h4>
+                        <p>Biểu đồ so sánh dữ liệu gốc</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/diabetes/smote.png" alt="Prediction Results">
+                    <div class="gallery-overlay">
+                        <h4>Dữ liệu SMOTE</h4>
+                        <p>Biểu đồ so sánh dữ liệu đã xử lý bằng kỹ thuật SMOTE</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/diabetes/random.png" alt="Data Visualization">
+                    <div class="gallery-overlay">
+                        <h4>Dữ liệu RandomSampling</h4>
+                        <p>Biểu đồ so sánh dữ liệu đã xử lý bằng kỹ thuật RandomSampling</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/diabetes/smote_random.png" alt="Model Performance">
+                    <div class="gallery-overlay">
+                        <h4>Dữ liệu kết hợp SMOTE và RandomSampling</h4>
+                        <p>Biểu đồ so sánh dữ liệu đã xử lý bằng kỹ thuật kết hợp SMOTE và RandomSampling</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/diabetes/website.png" alt="Model Performance">
+                    <div class="gallery-overlay">
+                        <h4>Giao diện ứng dụng web dự đoán bệnh</h4>
+                        <p>Giao diện Flask API áp dụng mô hình dự đoán bệnh tiểu đường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Project -->
+    <section class="next-project">
+        <div class="container">
+            <div class="next-project-card">
+                <div class="next-content">
+                    <span class="next-label">Next Project</span>
+                    <h3>Social Network Analytics</h3>
+                    <p>Phân tích dữ liệu mạng xã hội để hiểu behavior của người dùng</p>
+                </div>
+                <div class="next-image">
+                    <a href="project-twitter.html" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Liên hệ với tôi</h3>
+                    <p>Tôi luôn sẵn sàng thảo luận về các cơ hội hợp tác mới và dự án thú vị!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>tranhoangvi210720003@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+84889424240</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tân Phú, Thành phố Hồ Chí Minh</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/hoang-vi-860254323" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/hoangvi03" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Trần Hoàng Vĩ. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/hoang-vi-860254323" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/hoangvi03" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:tranhoangvi210720003@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
